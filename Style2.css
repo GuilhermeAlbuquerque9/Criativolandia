@@ -1,0 +1,174 @@
+/* Base corrompida */
+body {
+  font-family: 'Courier New', monospace;
+  background: #000;
+  color: #ff0000;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  overflow-x: hidden;
+  animation: flickerBg 6s infinite alternate;
+}
+
+/* Cabeçalho bugado */
+header {
+  background-color: #111;
+  color: #ff0000;
+  padding: 20px;
+  border-bottom: 4px dashed #ff0000;
+  animation: glitchHeader 2s infinite;
+}
+
+.logo {
+  width: 100px;
+  filter: grayscale(100%) contrast(300%) hue-rotate(90deg);
+  animation: glitchImg 3s infinite;
+}
+
+h1, h2, h3 {
+  font-size: 28px;
+  text-transform: uppercase;
+  animation: textShake 1.5s infinite, disappear 8s infinite;
+  color: #ff0000;
+  text-shadow: 2px 2px #000, -2px -2px #ff00ff;
+}
+
+/* Navegação distorcida */
+nav {
+  background-color: #222;
+  padding: 10px;
+  border-top: 2px solid #ff0000;
+  border-bottom: 2px solid #ff0000;
+  animation: flickerNav 4s infinite;
+}
+
+nav a {
+  margin: 8px;
+  text-decoration: none;
+  color: #ff0000;
+  font-weight: bold;
+  padding: 8px 16px;
+  background-color: #000;
+  border: 2px solid #ff00ff;
+  transition: 0.3s;
+  animation: navGlitch 3s infinite;
+}
+
+nav a:hover {
+  background-color: #ff00ff;
+  color: #000;
+}
+
+/* Seções bugadas */
+main {
+  padding: 20px;
+}
+
+.intro, .personagem-card, .CORROMPIDO {
+  background-color: #111;
+  border: 2px solid #ff0000;
+  margin: 20px auto;
+  padding: 20px;
+  width: 80%;
+  max-width: 700px;
+  box-shadow: 0 0 20px #ff0000;
+  animation: boxGlitch 5s infinite, disappear 10s infinite;
+}
+
+/* Botão corrompido */
+.corrompido-button {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 12px 24px;
+  background-color: #ff0000;
+  color: #fff;
+  font-weight: bold;
+  text-decoration: none;
+  border: 3px dashed #ff00ff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px #ff00ff;
+  animation: buttonGlitch 2s infinite, disappear 12s infinite;
+}
+
+.corrompido-button:hover {
+  background-color: #000;
+  color: #ff0000;
+  border-color: #ff0000;
+}
+
+/* Rodapé piscante */
+footer {
+  background-color: #111;
+  color: #ff0000;
+  padding: 10px;
+  font-size: 12px;
+  border-top: 2px solid #ff0000;
+  animation: flickerText 3s infinite;
+}
+
+/* Animações Glitch */
+@keyframes flickerBg {
+  0% {background-color: #000;}
+  25% {background-color: #111;}
+  50% {background-color: #000;}
+  75% {background-color: #222;}
+  100% {background-color: #000;}
+}
+
+@keyframes glitchHeader {
+  0%, 100% {transform: translate(0, 0);}
+  20% {transform: translate(-2px, 2px);}
+  40% {transform: translate(2px, -2px);}
+  60% {transform: translate(-1px, 1px);}
+  80% {transform: translate(1px, -1px);}
+}
+
+@keyframes glitchImg {
+  0% {filter: hue-rotate(0deg);}
+  50% {filter: hue-rotate(180deg);}
+  100% {filter: hue-rotate(0deg);}
+}
+
+@keyframes textShake {
+  0% {transform: translate(0, 0);}
+  25% {transform: translate(-1px, 1px);}
+  50% {transform: translate(1px, -1px);}
+  75% {transform: translate(-1px, -1px);}
+  100% {transform: translate(0, 0);}
+}
+
+@keyframes flickerNav {
+  0%, 100% {opacity: 1;}
+  50% {opacity: 0.6;}
+}
+
+@keyframes navGlitch {
+  0% {transform: scale(1);}
+  50% {transform: scale(1.05);}
+  100% {transform: scale(1);}
+}
+
+@keyframes boxGlitch {
+  0% {transform: rotate(0deg);}
+  25% {transform: rotate(1deg);}
+  50% {transform: rotate(-1deg);}
+  75% {transform: rotate(2deg);}
+  100% {transform: rotate(0deg);}
+}
+
+@keyframes buttonGlitch {
+  0% {box-shadow: 0 0 10px #ff00ff;}
+  50% {box-shadow: 0 0 20px #0ff;}
+  100% {box-shadow: 0 0 10px #ff00ff;}
+}
+
+@keyframes flickerText {
+  0%, 100% {opacity: 1;}
+  50% {opacity: 0.4;}
+}
+
+@keyframes disappear {
+  0%, 90% {opacity: 1;}
+  95% {opacity: 0;}
+  100% {opacity: 1;}
+}
