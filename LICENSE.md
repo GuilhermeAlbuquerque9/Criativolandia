@@ -1,14 +1,15 @@
-MIT License (com toque analógico)
+Licença ACPPE (Ante Copyright Para Projetos ou Empresas)
 
 Copyright (C) 2025 Criativolândia Analógica™
 
-A permissão é concedida, gratuitamente, a qualquer pessoa que obtenha uma cópia deste projeto e dos arquivos associados, para lidar com o projeto sem restrições, incluindo, sem limitação, os direitos de usar, copiar, modificar, mesclar, publicar, distribuir, sublicenciar e/ou vender cópias do projeto, com as seguintes condições:
+A permissão para distribuir, editar, mesclar, vender, reproduzir, trocar ou modificar em geral TEM DE SER OBRIGATÓRIAMENTE concedida pelos criadores. Mande um e-mail para Dono1.CLA@criativolandia-analogica.com.br. Condições:
 
 - O créditos devem ser mantidos ao criador original: Guilherme Albuquerque.
-- É proibido transformar a Bebê Puffy Lixo em personagem principal sem autorização dos Donos Supremos.
+- É proibido transformar a Bebê Puffy Lixo em personagem principal ou feliz sem autorização dos Donos.
 - É obrigatório manter o estilo analógico, com disketes, VHSs e sarcasmo.
-- Qualquer uso comercial deve incluir pelo menos um botão que não funciona, como homenagem ao caos.
+- Qualquer uso comercial tem que OBRIGATÓRIAMENTE ter a permissão dos criadores.
 
-O projeto é fornecido "como está", sem garantia de qualquer tipo, expressa ou implícita, incluindo, mas não se limitando a garantias de comercialização, adequação a um propósito específico e não violação.
+QUALQUER CÓPIA, PLÁGIO, EDIÇÃO ILEGAL OU MODIFICAÇÃO DO PROJETO NÃO ESTÁ CONFORME A 
+Lei de Direitos Autorais do Brasil, Lei nº 9.610/1998. FAÇA O SEU E NÃO COPIE!
 
-Diskete com responsabilidade. 💾
+Assinado: Guilherme Albuquerque, 13 de Novembro de 2025.
